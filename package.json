@@ -1,0 +1,25 @@
+{
+  "name": "receh-dex-reown",
+  "private": true,
+  "version": "2.1.0",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/check-env.mjs",
+    "dev": "vite",
+    "prebuild": "node scripts/check-env.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "qa": "node scripts/qa-static.mjs"
+  },
+  "dependencies": {
+    "@reown/appkit": "1.8.23",
+    "@reown/appkit-adapter-ethers": "1.8.23",
+    "ethers": "6.17.0"
+  },
+  "devDependencies": {
+    "vite": "7.1.3"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

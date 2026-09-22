@@ -1,0 +1,36 @@
+{
+  "name": "RECEH DEX",
+  "short_name": "RECEH DEX",
+  "description": "RECEH DEX — aplikasi tukar token dan likuiditas di Riche Chain.",
+  "start_url": "/dex/",
+  "scope": "/dex/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "theme_color": "#070a0f",
+  "background_color": "#070a0f",
+  "lang": "id",
+  "categories": [
+    "finance",
+    "business",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "/dex/pwa/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/dex/pwa/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
